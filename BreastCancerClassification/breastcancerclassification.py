@@ -160,3 +160,10 @@ plt.show()
 
 #Let us check the accuracy of our predictions
 print(classification_report(y_test, y_pred))
+"""
+Reading a confusion matrix
+Type 1 errors are called False positives. They are present in the top right corner of a confusion matrix. They are relatively harmless
+Type 2 errors are called False negatives. They are present in the bottom left corner of a confusion matrix. They are the bad type of errors.
+In our example, a type 2 error would mean a patient is considered not to have breast cancer despite having breast cancer which is terrible.
+
+"""
